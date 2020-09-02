@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jha/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -97,25 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="ls -l"
-alias la="ls -la"
-alias t="tmux"
-alias e="exit"
-alias c="clear"
-alias v="vi"
-alias s="source"
-alias p="python"
-alias rm="trash"
-alias cat="bat"
-alias man="tldr"
-alias sa="source activate"
-alias sd="conda deactivate"
 
-export PATH="/usr/local/anaconda3/bin:$PATH"
-
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
-#export AMPY_PORT="/dev/tty.usbserial-143101"
-#export AMPY_PORT="/dev/tty.usbserial-221401"
-export AMPY_PORT="/dev/tty.usbserial-142201"
+source .aliases
+source .exports
 
