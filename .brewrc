@@ -16,6 +16,7 @@ brew "tldr"
 brew "htop"
 brew "wget"
 brew "curl"
+brew "mackup"
 brew "autojump"
 
 # Cask Applications
