@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+alias c="clear"
+alias e="exit"
+alias v="vim"
+alias p="python"
+alias t="tmux"
+alias s="source"
+alias f="fzf"
+alias ca="conda activate"
+alias sd="conda deactivate"
+alias rm="trash"
+alias cat="bat"
+alias man="tldr"
+
+alias ll="ls -ll"
+alias la="ls -la"
