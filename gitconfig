@@ -1,0 +1,29 @@
+[user]
+name = Jinsung Ha
+email = jsung5381@naver.com
+username = jha929
+
+[core]
+editor = vim
+
+[alias]
+a = add
+b = branch
+c = commit
+d = diff
+s = status
+m = merge
+
+ps = push
+pl = pull
+pso = push origin
+plo = pull origin
+
+r = remote
+f = fetch
+
+o = checkout
+
+[color]
+ui = true
+
