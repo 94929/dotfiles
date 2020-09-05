@@ -22,3 +22,8 @@ source $HOME/.zshrc
 # source macOS configuration file
 source $PWD/.osxrc
 
+# install pure prompt then load it
+npm install --global pure-prompt
+autoload -U promptinit; promptinit
+prompt pure
+
