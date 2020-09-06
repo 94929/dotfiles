@@ -101,3 +101,6 @@ source $ZSH/oh-my-zsh.sh
 source .aliases
 source .exports
 
+# load pure-prompt
+autoload -U promptinit; promptinit
+prompt pure

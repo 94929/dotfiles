@@ -10,6 +10,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file=$PWD/.brewrc
 
+# install pure prompt then load it
+npm install --global pure-prompt
+
 # if .gitconfig does not exist under the home directory, link one from here
 [ ! -f $HOME/.gitconfig ] && ln -nfs $PWD/.gitrc $HOME/.gitconfig
 
@@ -21,9 +24,4 @@ source $HOME/.zshrc
 
 # source macOS configuration file
 source $PWD/.osxrc
-
-# install pure prompt then load it
-npm install --global pure-prompt
-autoload -U promptinit; promptinit
-prompt pure
 
