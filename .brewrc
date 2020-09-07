@@ -41,6 +41,7 @@ cask "karabiner-elements"
 cask "mutify"
 cask "itsycal"
 cask "parallels"
+cask "focus"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
