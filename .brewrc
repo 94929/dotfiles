@@ -42,6 +42,7 @@ cask "mutify"
 cask "itsycal"
 cask "parallels"
 cask "focus"
+cask "adguard"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
