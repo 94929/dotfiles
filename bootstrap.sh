@@ -16,10 +16,10 @@ npm install --global pure-prompt
 # if .gitconfig does not exist under the home directory, link one from here
 [ ! -f ~/.gitconfig ] && ln -nfs .gitrc ~/.gitconfig
 
-# change default shell to zsh, install oh-my-zsh, link .zshrc if not exist
+# change default shell to zsh, install oh-my-zsh, link .zshrc
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-[ ! -f ~/.zshrc ] && ln -nfs .zshrc ~/.zshrc
+ln -nfs .zshrc ~/.zshrc
 source ~/.zshrc
 
 # source macOS configuration file
