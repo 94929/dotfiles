@@ -8,7 +8,7 @@ fi
 # install packages using brew
 brew update
 brew tap homebrew/bundle
-brew bundle --file=$.brewrc
+brew bundle --file=.brewrc
 
 # install pure prompt
 npm install --global pure-prompt
