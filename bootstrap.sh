@@ -19,6 +19,8 @@ npm install --global pure-prompt
 # change default shell to zsh, install oh-my-zsh, link .zshrc
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+ln -nfs .aliases ~/.aliases
+ln -nfs .exports ~/.exports
 ln -nfs .zshrc ~/.zshrc
 source ~/.zshrc
 
