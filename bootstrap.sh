@@ -27,3 +27,5 @@ source ~/.zshrc
 # source macOS configuration file
 source .osxrc
 
+# install vimrc
+bash vimrc/setup.sh
