@@ -19,13 +19,11 @@ npm install --global pure-prompt
 # change default shell to zsh, install oh-my-zsh, link .zshrc
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-ln -nfs .aliases ~/.aliases
-ln -nfs .exports ~/.exports
-ln -nfs .zshrc ~/.zshrc
+ln -nfs $PWD/.aliases ~/.aliases && ln -nfs $PWD/.exports ~/.exports && ln -nfs $PWD/.zshrc ~/.zshrc
 source ~/.zshrc
 
 # source macOS configuration file
-source .osxrc
+source $PWD/.osxrc
 
 # install vimrc
-bash vimrc/setup.sh
+bash $PWD/vimrc/setup.sh
