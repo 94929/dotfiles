@@ -8,20 +8,20 @@ fi
 # install packages using brew
 brew update
 brew tap homebrew/bundle
-brew bundle --file=$PWD/.brewrc
+brew bundle --file=$.brewrc
 
-# install pure prompt then load it
+# install pure prompt
 npm install --global pure-prompt
 
 # if .gitconfig does not exist under the home directory, link one from here
-[ ! -f $HOME/.gitconfig ] && ln -nfs $PWD/.gitrc $HOME/.gitconfig
+[ ! -f ~/.gitconfig ] && ln -nfs .gitrc ~/.gitconfig
 
 # change default shell to zsh, install oh-my-zsh, link .zshrc if not exist
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-[ ! -f $HOME/.zshrc ] && ln -nfs $PWD/.zshrc $HOME/.zshrc
-source $HOME/.zshrc
+[ ! -f ~/.zshrc ] && ln -nfs .zshrc ~/.zshrc
+source ~/.zshrc
 
 # source macOS configuration file
-source $PWD/.osxrc
+source .osxrc
 
