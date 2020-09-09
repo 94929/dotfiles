@@ -104,3 +104,6 @@ source .exports
 # load pure-prompt
 autoload -U promptinit; promptinit
 prompt pure
+
+# set autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
