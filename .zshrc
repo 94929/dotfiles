@@ -98,8 +98,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source .aliases
-source .exports
+source ~/.aliases
+source ~/.exports
 
 # load pure-prompt
 autoload -U promptinit; promptinit; prompt pure
