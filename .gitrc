@@ -5,6 +5,7 @@ username = jha929
 
 [core]
 editor = vim
+autocrlf = input
 
 [alias]
 a = add
