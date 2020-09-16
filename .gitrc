@@ -20,9 +20,11 @@ pso = push origin
 plo = pull origin
 
 r = remote
+rb = rebase
 f = fetch
+co = checkout
 
-o = checkout
+psso = push --set-upstream origin
 
 [color]
 ui = true
