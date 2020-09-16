@@ -16,6 +16,9 @@ npm install --global pure-prompt
 # if .gitconfig does not exist under the home directory, link one from here
 [ ! -f ~/.gitconfig ] && ln -nfs .gitrc ~/.gitconfig
 
+# if .mackup.cfg does not exist under the home directory, link one from here
+[ ! -f ~/.mackup.cfg ] && ln -nfs .mackuprc ~/.mackup.cfg
+
 # change default shell to zsh, install oh-my-zsh, link .zshrc
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"

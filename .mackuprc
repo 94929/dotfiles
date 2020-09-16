@@ -1,0 +1,20 @@
+[storage]
+engine = dropbox
+
+[applications_to_sync]
+bartender
+focus
+istat-menus
+iterm2
+itsycal
+karabiner-elements
+keyboard-maestro
+pycharm
+spark
+spectacle
+terminal
+tmux
+tunnelblick
+vscode
+xcode
+
