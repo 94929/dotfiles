@@ -44,6 +44,7 @@ cask "parallels"
 cask "focus"
 cask "adguard"
 cask "pdf-expert"
+cask "spectacle"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
