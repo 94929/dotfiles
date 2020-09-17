@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 # Binaries/Libraries
+brew "gh"
 brew "zsh"
 brew "vim"
 brew "git"
