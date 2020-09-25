@@ -13,9 +13,6 @@ brew bundle --file=.brewrc
 # install pure prompt
 npm install --global pure-prompt
 
-# if .gitconfig does not exist under the home directory, link one from here
-[ ! -f ~/.gitconfig ] && ln -nfs .gitrc ~/.gitconfig
-
 # if .mackup.cfg does not exist under the home directory, link one from here
 [ ! -f ~/.mackup.cfg ] && ln -nfs .mackuprc ~/.mackup.cfg
 
