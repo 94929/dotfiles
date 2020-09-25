@@ -2,7 +2,6 @@
 engine = dropbox
 
 [applications_to_sync]
-mackup
 bartender
 focus
 istat-menus
@@ -19,4 +18,5 @@ tunnelblick
 vscode
 xcode
 git
+ssh
 
