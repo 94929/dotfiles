@@ -14,13 +14,14 @@ brew bundle --file=.brewrc
 npm install --global pure-prompt
 
 # if .mackup.cfg does not exist under the home directory, link one from here
-[ ! -f ~/.mackup.cfg ] && ln -nfs .mackuprc ~/.mackup.cfg
+[ ! -f $HOME/.mackup.cfg ] && ln -nfs $PWD/.mackuprc $HOME/.mackup.cfg
+mackup restore
 
 # change default shell to zsh, install oh-my-zsh, link .zshrc
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-ln -nfs $PWD/.aliases ~/.aliases && ln -nfs $PWD/.exports ~/.exports && ln -nfs $PWD/.zshrc ~/.zshrc
-source ~/.zshrc
+ln -nfs $PWD/.aliases $HOME/.aliases && ln -nfs $PWD/.exports $HOME/.exports && ln -nfs $PWD/.zshrc $HOME/.zshrc
+source $HOME/.zshrc
 
 # source macOS configuration file
 source $PWD/.osxrc
