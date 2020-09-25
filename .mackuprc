@@ -2,6 +2,7 @@
 engine = dropbox
 
 [applications_to_sync]
+mackup
 bartender
 focus
 istat-menus
