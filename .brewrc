@@ -22,6 +22,8 @@ brew "wget"
 brew "curl"
 brew "mackup"
 brew "autojump"
+brew "gpg"
+brew "gpg-suite"
 
 # Cask Applications
 cask "alfred"
