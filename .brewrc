@@ -23,7 +23,6 @@ brew "curl"
 brew "mackup"
 brew "autojump"
 brew "gpg"
-brew "gpg-suite"
 
 # Cask Applications
 cask "alfred"
@@ -48,6 +47,7 @@ cask "focus"
 cask "adguard"
 cask "pdf-expert"
 cask "spectacle"
+cask "gpg-suite"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
