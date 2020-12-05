@@ -15,7 +15,8 @@ npm install --global pure-prompt
 
 # if .mackup.cfg does not exist under the home directory, link one from here
 [ ! -f $HOME/.mackup.cfg ] && ln -nfs $PWD/.mackuprc $HOME/.mackup.cfg
-mackup restore
+#mackup restore
+
 
 # change default shell to zsh, install oh-my-zsh, link .zshrc
 chsh -s $(which zsh)
