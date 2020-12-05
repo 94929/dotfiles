@@ -27,7 +27,7 @@ brew "gpg"
 # Cask Applications
 cask "alfred"
 cask "dropbox"
-cask "anaconda"
+cask "miniconda"
 cask "appcleaner"
 cask "postman"
 cask "docker"
