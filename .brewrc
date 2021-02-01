@@ -51,6 +51,7 @@ cask "gpg-suite"
 cask "slack"
 cask "dozer"
 cask "intellij-idea-ce"
+cask "chrome-remote-desktop-host"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
