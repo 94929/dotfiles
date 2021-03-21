@@ -134,6 +134,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 # Minimize finder sidebar icons
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
 # Remove Dropbox’s green checkmark icons in Finder
 file=/Applications/Dropbox.app/Contents/Resources/emblem-dropbox-uptodate.icns
 [ -e "${file}" ] && mv -f "${file}" "${file}.bak"
