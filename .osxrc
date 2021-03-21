@@ -148,6 +148,15 @@ defaults write com.apple.dock showhidden -bool true
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
+# Change the dock default location
+defaults write com.apple.dock orientation -string left
+
+# Change the dock opening delay
+defaults write com.apple.dock autohide-delay -float 0
+
+# Change the dock closing delay
+defaults write com.apple.dock autohide-time-modifier -float 1
+
 # Change the dock minimize animation to suck
 defaults write com.apple.dock mineffect -string suck
 
