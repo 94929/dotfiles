@@ -24,6 +24,7 @@ brew "mackup"
 brew "autojump"
 brew "gpg"
 brew "awscli"
+brew "minikube"
 
 # Cask Applications
 cask "alfred"
@@ -52,7 +53,6 @@ cask "dozer"
 cask "intellij-idea-ce"
 cask "chrome-remote-desktop-host"
 cask "ridibooks"
-cask "minikube"
 cask "openinterminal"
 
 # Appstore Applications
