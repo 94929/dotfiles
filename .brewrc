@@ -54,6 +54,7 @@ cask "intellij-idea-ce"
 cask "chrome-remote-desktop-host"
 cask "ridibooks"
 cask "openinterminal"
+cask "ngrok"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
