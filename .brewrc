@@ -24,6 +24,7 @@ brew "mackup"
 brew "autojump"
 brew "gpg"
 brew "awscli"
+brew "kubectl"
 brew "minikube"
 
 # Cask Applications
