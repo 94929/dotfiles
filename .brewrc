@@ -58,7 +58,6 @@ cask "openinterminal"
 cask "ngrok"
 cask "dash"
 cask "postman"
-cask "postico"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
