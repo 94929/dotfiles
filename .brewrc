@@ -25,6 +25,7 @@ brew "telnet"
 brew "awscli"
 brew "kubectl"
 brew "minikube"
+brew "awscli"
 
 # Cask Applications
 cask "alfred"
