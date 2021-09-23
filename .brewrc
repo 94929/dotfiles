@@ -26,6 +26,7 @@ brew "awscli"
 brew "kubectl"
 brew "minikube"
 brew "awscli"
+brew "aws-iam-authenticator"
 
 # Cask Applications
 cask "alfred"
