@@ -58,7 +58,7 @@ cask "ngrok"
 cask "dash"
 cask "postman"
 cask "paw"
-cask "postico"
+cask "tableplus"
 cask "figma"
 
 # Appstore Applications
