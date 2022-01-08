@@ -29,6 +29,7 @@ brew "helm"
 brew "minikube"
 brew "awscli"
 brew "aws-iam-authenticator"
+brew "kustomize"
 
 # Cask Applications
 cask "alfred"
