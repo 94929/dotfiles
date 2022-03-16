@@ -30,7 +30,6 @@ brew "minikube"
 brew "awscli"
 brew "aws-iam-authenticator"
 brew "kustomize"
-brew "postico"
 
 # Cask Applications
 cask "alfred"
@@ -61,6 +60,7 @@ cask "postman"
 cask "paw"
 cask "tableplus"
 cask "figma"
+cask "postico"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
