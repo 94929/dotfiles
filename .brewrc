@@ -62,6 +62,7 @@ cask "paw"
 cask "tableplus"
 cask "figma"
 cask "postico"
+cask "kube-forwarder"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
