@@ -64,6 +64,7 @@ cask "figma"
 cask "postico"
 cask "kube-forwarder"
 cask "graphql-playground"
+cask "bloomrpc"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
