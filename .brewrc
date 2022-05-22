@@ -63,7 +63,7 @@ cask "tableplus"
 cask "figma"
 cask "postico"
 cask "kube-forwarder"
-cask "graphql-playground"
+cask "altair-graphql-client"
 cask "bloomrpc"
 
 # Appstore Applications
