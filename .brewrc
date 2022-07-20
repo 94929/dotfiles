@@ -65,6 +65,7 @@ cask "postico"
 cask "kube-forwarder"
 cask "altair-graphql-client"
 cask "bloomrpc"
+cask "macupdater"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
