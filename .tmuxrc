@@ -10,14 +10,24 @@ set-option -g mouse on
 # Set history limitation
 set-option -g history-limit 10000
 
-# Set base index to 1
-set -g base-index 1
-
-# Set base pane index to 1
-setw -g pane-base-index 1
-
 # Set vertical split to v
 bind v split-window -h
 
 # Set horizontal split to h
 bind h split-window -v
+
+# Start window and pane indices at 1
+set -g base-index 1
+set -g pane-base-index 1
+
+# Length of tmux status line
+set -g status-left-length 30
+set -g status-right-length 150
+
+set-option -g status "on"
+
+## loud or quiet?
+set-option -g visual-activity off
+set-option -g visual-bell off
+set-option -g visual-silence off
+set-option -g bell-action none
