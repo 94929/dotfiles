@@ -7,6 +7,9 @@ set -g default-terminal "screen-256color"
 # Use prefix ctrl+a
 set-option -g prefix C-a
 
+# dont mess up with other ctrl-a options by pressing ctrl-a twice
+bind C-a send-prefix
+
 # Enable mouse interaction
 set-option -g mouse on
 
@@ -34,3 +37,6 @@ set-option -g visual-activity off
 set-option -g visual-bell off
 set-option -g visual-silence off
 set-option -g bell-action none
+
+# source .tmux.conf file
+bind r source-file ~/.tmux.conf \; display "Configuration Reloaded!"
