@@ -33,4 +33,5 @@ source $HOME/.zshrc
 source $PWD/.osxrc
 
 # install vimrc
+git submodule update --recursive --remote
 bash $PWD/vimrc/setup.sh
