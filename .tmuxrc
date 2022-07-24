@@ -13,6 +13,9 @@ set-option -g history-limit 10000
 # Set base index to 1
 set -g base-index 1
 
+# Set base pane index to 1
+setw -g pane-base-index 1
+
 # Set vertical split to v
 bind v split-window -h
 
