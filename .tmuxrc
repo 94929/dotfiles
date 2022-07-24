@@ -1,32 +1,37 @@
+# set default terminal
 set -g default-terminal "xterm"
-set -g default-command "/bin/zsh"
+
+# set zsh as default shell
+set -g default-command /bin/zsh
+set -g default-shell /bin/zsh
+
+# helps in faster key repetition
+set -sg escape-time 0
 
 # set 256 color
 set -g default-terminal "screen-256color"
 
-# Use prefix ctrl+a
+# use prefix ctrl+a
 set-option -g prefix C-a
 
 # dont mess up with other ctrl-a options by pressing ctrl-a twice
 bind C-a send-prefix
 
-# Enable mouse interaction
+# enable mouse interaction
 set-option -g mouse on
 
-# Set history limitation
+# set history limitation
 set-option -g history-limit 10000
 
-# Set vertical split to v
+# set split keys
 bind v split-window -h
-
-# Set horizontal split to h
 bind h split-window -v
 
 # Start window and pane indices at 1
 set -g base-index 1
 set -g pane-base-index 1
 
-# Length of tmux status line
+# length of tmux status line
 set -g status-left-length 30
 set -g status-right-length 150
 
