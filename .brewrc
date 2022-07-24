@@ -67,6 +67,7 @@ cask "altair-graphql-client"
 cask "bloomrpc"
 cask "macupdater"
 cask "lunar"
+cask "little-snitch"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
