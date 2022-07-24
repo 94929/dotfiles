@@ -1,3 +1,20 @@
 set -g default-terminal "xterm"
 set -g default-command "/bin/zsh"
+
+# Use prefix ctrl+a
 set-option -g prefix C-a
+
+# Enable mouse interaction
+set-option -g mouse on
+
+# Set history limitation
+set-option -g history-limit 10000
+
+# Set base index to 1
+set -g base-index 1
+
+# Set vertical split to v
+bind v split-window -h
+
+# Set horizontal split to h
+bind h split-window -v
