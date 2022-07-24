@@ -8,9 +8,6 @@ set -g default-shell /bin/zsh
 # helps in faster key repetition
 set -sg escape-time 0
 
-# set 256 color
-set -g default-terminal "screen-256color"
-
 # use prefix ctrl+a
 set-option -g prefix C-a
 
