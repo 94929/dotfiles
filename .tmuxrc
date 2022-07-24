@@ -1,6 +1,9 @@
 set -g default-terminal "xterm"
 set -g default-command "/bin/zsh"
 
+# set 256 color
+set -g default-terminal "screen-256color"
+
 # Use prefix ctrl+a
 set-option -g prefix C-a
 
