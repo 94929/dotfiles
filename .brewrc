@@ -51,7 +51,6 @@ cask "itsycal"
 cask "parallels"
 cask "focus"
 cask "adguard"
-cask "spectacle"
 cask "gpg-suite"
 cask "slack"
 cask "chrome-remote-desktop-host"
@@ -96,3 +95,4 @@ mas "Noizio", id: 928871589
 mas "Reeder", id: 1529448980
 mas "Hidden Bar", id: 1452453066
 mas "Core Tunnel", id: 1354318707
+mas "Magnet", id: 441258766
