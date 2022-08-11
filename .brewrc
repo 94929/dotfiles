@@ -69,6 +69,7 @@ cask "macupdater"
 cask "lunar"
 cask "little-snitch"
 cask "keyboard-cleaner"
+cask "raspberry-pi-imager"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
