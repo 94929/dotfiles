@@ -74,6 +74,7 @@ cask "raspberry-pi-imager"
 cask "alt-tab"
 cask "cheatsheet"
 cask "gureumkim"
+cask "cleanshot"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
@@ -102,5 +103,4 @@ mas "Reeder", id: 1529448980
 mas "Hidden Bar", id: 1452453066
 mas "Core Tunnel", id: 1354318707
 mas "Magnet", id: 441258766
-mas "GrabIt", id: 450166997
 mas "QuickShade", id: 931571202
