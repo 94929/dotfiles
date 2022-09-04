@@ -32,6 +32,7 @@ brew "minikube"
 brew "awscli"
 brew "aws-iam-authenticator"
 brew "kustomize"
+brew "localtunnel"
 
 # Cask Applications
 cask "alfred"
