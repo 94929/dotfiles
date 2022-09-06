@@ -76,6 +76,7 @@ cask "alt-tab"
 cask "cheatsheet"
 cask "gureumkim"
 cask "cleanshot"
+cask "airbuddy"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
