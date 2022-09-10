@@ -33,6 +33,7 @@ brew "awscli"
 brew "aws-iam-authenticator"
 brew "kustomize"
 brew "localtunnel"
+brew "tfenv"
 
 # Cask Applications
 cask "alfred"
