@@ -3,7 +3,7 @@
 [user]
 name = Jinsung Ha
 email = jsung5381@naver.com
-username = jha929
+username = 94929
 
 [core]
 editor = vim
@@ -21,13 +21,13 @@ ps = push
 pl = pull
 pso = push origin
 plo = pull origin
+psso = push --set-upstream origin
 
 r = remote
 rb = rebase
 f = fetch
 co = checkout
-
-psso = push --set-upstream origin
+sw = switch
 
 [color]
 ui = true
