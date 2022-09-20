@@ -22,7 +22,6 @@ pl = pull
 pso = push origin
 plo = pull origin
 psso = push --set-upstream origin
-graph = log --all -15 --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit --date=relative
 
 r = remote
 rb = rebase
