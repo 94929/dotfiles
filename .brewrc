@@ -34,6 +34,7 @@ brew "kustomize"
 brew "localtunnel"
 brew "tfenv"
 brew "pyenv"
+brew "graphviz"
 
 # Cask Applications
 cask "alfred"
