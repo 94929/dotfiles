@@ -40,7 +40,6 @@ brew "graphviz"
 # Cask Applications
 cask "alfred"
 cask "dropbox"
-cask "miniconda"
 cask "appcleaner"
 cask "docker"
 cask "iterm2"
