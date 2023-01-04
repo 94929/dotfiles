@@ -79,6 +79,7 @@ cask "cleanshot"
 cask "airbuddy"
 cask "setapp"
 cask "warp"
+cask "transmit"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
