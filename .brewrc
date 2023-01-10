@@ -36,6 +36,7 @@ brew "localtunnel"
 brew "tfenv"
 brew "pyenv"
 brew "graphviz"
+brew "yt-dlp"
 
 # Cask Applications
 cask "alfred"
