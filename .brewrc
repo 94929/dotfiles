@@ -36,6 +36,7 @@ brew "tfenv"
 brew "pyenv"
 brew "graphviz"
 brew "yt-dlp"
+brew "fig"
 
 # Cask Applications
 cask "alfred"
