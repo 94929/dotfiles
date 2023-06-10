@@ -37,6 +37,7 @@ brew "pyenv"
 brew "graphviz"
 brew "yt-dlp"
 brew "scrcpy"
+brew "android-platform-tools"
 
 # Cask Applications
 cask "alfred"
