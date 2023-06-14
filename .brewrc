@@ -77,6 +77,7 @@ cask "cheatsheet"
 cask "cleanshot"
 cask "setapp"
 cask "transmit"
+cask "millie"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
