@@ -6,7 +6,7 @@ email = jsung5381@naver.com
 username = 94929
 
 [core]
-editor = vim
+editor = vi
 autocrlf = input
 
 [alias]
@@ -32,3 +32,5 @@ sw = switch
 [color]
 ui = true
 
+[init]
+defaultBranch = main
