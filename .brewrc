@@ -36,6 +36,7 @@ brew "graphviz"
 brew "yt-dlp"
 brew "scrcpy"
 brew "gpg"
+brew "redis-cli"
 
 # Cask Applications
 cask "alfred"
