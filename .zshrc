@@ -107,6 +107,9 @@ autoload -U promptinit; promptinit; prompt pure
 # set autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
+# setup nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
