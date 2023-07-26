@@ -18,6 +18,7 @@ alias pi="python3 -m pip install"
 alias rm="trash"
 alias cat="bat"
 alias man="tldr"
+alais ld="lazydocker"
 
 alias ll="ls -ll"
 alias la="ls -la"
