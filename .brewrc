@@ -38,6 +38,7 @@ brew "scrcpy"
 brew "gpg"
 brew "redis-cli"
 brew "lazydocker"
+brew "dive"
 
 # Cask Applications
 cask "alfred"
