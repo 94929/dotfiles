@@ -39,6 +39,7 @@ brew "gpg"
 brew "redis-cli"
 brew "lazydocker"
 brew "dive"
+brew "jq"
 
 # Cask Applications
 cask "alfred"
