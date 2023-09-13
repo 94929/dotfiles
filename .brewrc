@@ -80,7 +80,7 @@ cask "setapp"
 cask "transmit"
 cask "millie"
 cask "android-platform-tools"
-brew "podman-desktop"
+cask "podman-desktop"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
