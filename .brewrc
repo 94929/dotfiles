@@ -40,6 +40,7 @@ brew "redis-cli"
 brew "lazydocker"
 brew "dive"
 brew "jq"
+brew "podman"
 
 # Cask Applications
 cask "alfred"
@@ -79,6 +80,7 @@ cask "setapp"
 cask "transmit"
 cask "millie"
 cask "android-platform-tools"
+brew "podman-desktop"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
