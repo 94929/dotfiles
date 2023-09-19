@@ -37,8 +37,6 @@ brew "yt-dlp"
 brew "scrcpy"
 brew "gpg"
 brew "redis-cli"
-brew "lazydocker"
-brew "dive"
 brew "jq"
 brew "podman"
 
@@ -81,6 +79,7 @@ cask "transmit"
 cask "millie"
 cask "android-platform-tools"
 cask "podman-desktop"
+cask "raycast"
 
 # Appstore Applications
 mas "1Password 7", id: 1333542190
